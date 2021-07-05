@@ -44,3 +44,53 @@ h1{
  width: 50%;
  padding-right: 150px;   
 }
+.B{
+    display: flex;
+}
+
+.A{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    padding-bottom: 150px;
+
+}
+
+.C{
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 15px;
+    padding: 10px 50px ;
+    border-radius: 15px;
+    box-shadow: 10px 10px 45px gray;
+    border-left : 5px solid red;
+}
+
+.C h1{
+    font-size: 50px;
+}
+
+.C h2 {
+    font-size: 40px;
+}
+
+.C h3{
+    color: orangered;
+}
+
+#a{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+
+#b{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+}
